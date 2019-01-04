@@ -8,7 +8,7 @@ ENV METHOD     chacha20
 ENV TIMEOUT    600
 ENV SERVER     0.0.0.0
 
-EXPOSE $SS_PORT/tcp $SS_PORT/udp
+EXPOSE $PORT/tcp $PORT/udp
 
 COPY entrypoint /bin/entrypoint
 COPY ssserver   /usr/local/bin/ssserver

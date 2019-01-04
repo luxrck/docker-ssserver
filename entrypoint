@@ -2,6 +2,4 @@
 
 SSS_EXEC="/usr/local/bin/ssserver"
 
-SSS_EXEC=$SSS_EXEC" -s $SS_SERVER -p $SS_PORT -k $SS_PASSWORD -m $SS_METHOD -t $SS_TIMEOUT --fast-open"
-
-trap "pkill -P $$; exit 0" TERM INT; wait
+SSS_EXEC=$SS_EXEC" -s $SERVER -p $PORT -k $PASSWORD -m $METHOD -t $TIMEOUT"
