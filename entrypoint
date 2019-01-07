@@ -1,5 +1,0 @@
-#!/bin/sh -e
-
-SSS_EXEC="/usr/local/bin/ssserver"
-
-SSS_EXEC=$SS_EXEC" -s $SERVER -p $PORT -k $PASSWORD -m $METHOD -t $TIMEOUT"
